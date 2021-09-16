@@ -5,11 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashikur</title>
+    <link rel="stylesheet" href="app/css/style.css">
+    <link rel="stylesheet" href="app/css/color-1.css">
 </head>
 <body>
-    <h1>Ashikur Rahman</h1>
-    <div class="logo">
-        <img src="app/resources/profile_img.jpg">
-    </div>
+    <header class="header" style="border: 2px dotted red;">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="logo">
+                    <a href="#">Ashikur Rahman</a>
+                </div>
+                <div class="hamburger-btn outer-shadow hover-in-shadow">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav-menu">
+        <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
+        <div class="nav-menu-inner">
+            <ul>
+                <li><a href="#" class="inner-shadow active">Home</a></li>
+                <li><a href="#" class="outer-shadow hover-in-shadow">About</a></li>
+                <li><a href="#" class="outer-shadow hover-in-shadow">Portfolio</a></li>
+                <li><a href="#" class="outer-shadow hover-in-shadow">Testimonial</a></li>
+                <li><a href="#" class="outer-shadow hover-in-shadow">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="home-section section" style="border: 10px solid blue;">
+        <div class="container">
+            <div class="row full-screen align-item-center">
+                <div class="home-text">
+                    <p>Hello</p>
+                    <h2>I'm Ashikur.</h2>
+                    <h1>A fresh graduate</h1>
+                </div>
+                <div class="home-img">
+                    <div class="img-box inner-shadow">
+                        <img src="app/resources/web-transp-2.png" class="outer-shadow" alt="profile-pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
